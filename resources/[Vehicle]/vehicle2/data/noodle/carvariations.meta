@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+  <variationData>
+    <Item>
+      <modelName>foodcar2</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            <Item value="0" />
+            <Item value="0" />
+            <Item value="1" />
+            <Item value="156" />
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            <Item value="7" />
+            <Item value="0" />
+            <Item value="5" />
+            <Item value="156" />
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            <Item value="6" />
+            <Item value="0" />
+            <Item value="111" />
+            <Item value="156" />
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            <Item value="61" />
+            <Item value="0" />
+            <Item value="65" />
+            <Item value="156" />
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            <Item value="30" />
+            <Item value="0" />
+            <Item value="38" />
+            <Item value="156" />
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            <Item value="1" />
+            <Item value="0" />
+            <Item value="4" />
+            <Item value="156" />
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            <Item value="8" />
+            <Item value="0" />
+            <Item value="5" />
+            <Item value="156" />
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            <Item value="33" />
+            <Item value="0" />
+            <Item value="35" />
+            <Item value="156" />
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            <Item value="104" />
+            <Item value="0" />
+            <Item value="37" />
+            <Item value="156" />
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            <Item value="111" />
+            <Item value="0" />
+            <Item value="111" />
+            <Item value="156" />
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            <Item value="41" />
+            <Item value="0" />
+            <Item value="41" />
+            <Item value="156" />
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            <Item value="6" />
+            <Item value="0" />
+            <Item value="111" />
+            <Item value="156" />
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            <Item value="4" />
+            <Item value="0" />
+            <Item value="111" />
+            <Item value="156" />
+          </indices>
+          <liveries/>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            <Item value="4" />
+            <Item value="0" />
+            <Item value="5" />
+            <Item value="156" />
+          </indices>
+          <liveries/>
+        </Item>
+      </colors>
+      <kits>
+        <Item>614_foodcar2_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>standard white</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="30" />
+      <sirenSettings value="0" />
+    </Item>
+	<Item>
+    <Item>
+      <modelName>foodbike</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            29
+            0
+            2
+            1 
+	    111	    
+	    111
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>   
+        <Item>
+          <indices content="char_array">
+            36
+            0
+            2
+            1 
+	    111	    
+	    111
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item> 
+        <Item>
+          <indices content="char_array">
+            42
+            0
+            2
+            1 
+	    111	    
+	    111
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>  
+        <Item>
+          <indices content="char_array">
+            51
+            0
+            2
+            1 
+	    111	    
+	    111
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>  
+        <Item>
+          <indices content="char_array">
+            62
+            0
+            2
+            1 
+	    111	    
+	    111
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>  
+        <Item>
+          <indices content="char_array">
+            73
+            0
+            2
+            1 
+	    111	    
+	    111
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>                         
+      </colors>
+      <kits>
+        <Item>0_bike_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="13" />
+      <sirenSettings value="0" />
+    </Item>     
+  </variationData>
+</CVehicleModelInfoVariation>

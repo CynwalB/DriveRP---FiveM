@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleMetadataMgr>
+  <ClipSetMaps>
+	<Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_HELI_SWIFT_REAR_LEFT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@helicopter@swift@rds@enter_exit</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_HELI_SWIFT_REAR_LEFT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@helicopter@swift@rds@enter_exit</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_HELI_SWIFT_REAR_RIGHT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@helicopter@swift@rps@enter_exit</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_HELI_SWIFT_REAR_RIGHT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@helicopter@swift@rps@enter_exit</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+	<Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_PLANE_LUXOR2_EXTRA_LEFT_1</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@plane@luxor2@rear@rds2@enter_exit</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_PLANE_LUXOR2_EXTRA_LEFT_1</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@plane@luxor2@rear@rds2@enter_exit</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_PLANE_LUXOR2_EXTRA_RIGHT_1</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@plane@luxor2@rear@rps2@enter_exit</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_PLANE_LUXOR2_EXTRA_RIGHT_1</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>anim@veh@plane@luxor2@rear@rps2@enter_exit</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+  </ClipSetMaps>
+  <VehicleCoverBoundOffsetInfos />
+  <VehicleExtraPointsInfos />
+  <VehicleDriveByInfos>  
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_HELI_SWIFT_REAR_LEFT</Name>
+      <MinAimSweepHeadingAngleDegs value="-180.000000" />
+      <MaxAimSweepHeadingAngleDegs value="0.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="-180.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <DriveByAnimInfos>
+        <Item ref="HELI_FROGGER_DB_ANIM_INFO_ONE_HANDED_RDS" />
+        <Item ref="HELI_FROGGER_DB_ANIM_INFO_TWO_HANDED_RDS" />
+      </DriveByAnimInfos>
+      <DriveByCamera>FROGGER_REAR_LEFT_PASSENGER_AIM_CAMERA</DriveByCamera>
+      <DriveByFlags>NeedToOpenDoors DampenRecoil UseThreeAnimIntroOutro</DriveByFlags>
+    </Item>
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_HELI_SWIFT_REAR_RIGHT</Name>
+      <MinAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxAimSweepHeadingAngleDegs value="180.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="180.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <DriveByAnimInfos>
+        <Item ref="HELI_FROGGER_DB_ANIM_INFO_ONE_HANDED_RPS" />
+        <Item ref="HELI_FROGGER_DB_ANIM_INFO_TWO_HANDED_RPS" />
+      </DriveByAnimInfos>
+      <DriveByCamera />
+      <DriveByFlags>NeedToOpenDoors DampenRecoil UseThreeAnimIntroOutro</DriveByFlags>
+    </Item>
+  </VehicleDriveByInfos> 
+  <VehicleSeatInfos>  
+  	<Item type="CVehicleSeatInfo">
+      <Name>SEAT_PRESHELI_BACK_LEFT</Name>
+      <SeatBoneName>seat_dside_r1</SeatBoneName>
+      <ShuffleLink>SEAT_PRESHELI_BACK_RIGHT</ShuffleLink>
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="-0.2750000" />
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_PRESHELI_BACK_RIGHT</Name>
+      <SeatBoneName>seat_pside_r1</SeatBoneName>
+      <ShuffleLink>SEAT_PRESHELI_BACK_LEFT</ShuffleLink>
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="-0.2750000" />
+    </Item>
+	<Item type="CVehicleSeatInfo">
+      <Name>SEAT_PRESHELI_EXTRA_NO_SHUFFLE_LEFT</Name>
+      <SeatBoneName>seat_dside_r2</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+	<Item type="CVehicleSeatInfo">
+      <Name>SEAT_PRESHELI_EXTRA_NO_SHUFFLE_RIGHT</Name>
+      <SeatBoneName>seat_pside_r2</SeatBoneName>
+      <ShuffleLink />
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags />
+      <HairScale value="0.000000" />
+    </Item>
+	<Item type="CVehicleSeatInfo">
+      <Name>SEAT_PRESHELI_REAR_LEFT</Name>
+      <SeatBoneName>seat_dside_r3</SeatBoneName>
+      <ShuffleLink>SEAT_PRESHELI_REAR_RIGHT</ShuffleLink>
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="-0.2750000" />
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_PRESHELI_REAR_RIGHT</Name>
+      <SeatBoneName>seat_pside_r4</SeatBoneName>
+      <ShuffleLink>SEAT_PRESHELI_REAR_LEFT</ShuffleLink>
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsIdleSeat</SeatFlags>
+      <HairScale value="-0.2750000" />
+    </Item>
+  </VehicleSeatInfos>  
+  <VehicleSeatAnimInfos>  
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_HELI_PRESHELI_REAR_LEFT</Name>
+      <DriveByInfo ref="DRIVEBY_HELI_SWIFT_REAR_LEFT" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_VAN_REAR_LEFT" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+      <LowLODIdleAnim>STD_CAR_FRONT_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_HELI_PRESHELI_REAR_RIGHT</Name>
+      <DriveByInfo ref="DRIVEBY_HELI_SWIFT_REAR_RIGHT" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_VAN_REAR_RIGHT" />
+      <PanicClipSet />
+      <AgitatedClipSet />
+      <LowLODIdleAnim>STD_CAR_FRONT_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>UseStandardInVehicleAnims PreventShuffleJack DisableAbnormalExits</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+  </VehicleSeatAnimInfos>  
+  <VehicleEntryPointInfos>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PRESHELI_BACK_LEFT</Name>
+      <DoorBoneName>door_pside_r</DoorBoneName>
+      <SecondDoorBoneName>door_dside_r</SecondDoorBoneName>
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_PRESHELI_BACK_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_STD_LEFT" />
+      <Flags>BlockJackReactionUntilJackerIsReady</Flags>
+      <BlockJackReactionSides>
+        <Item>SIDE_LEFT</Item>
+      </BlockJackReactionSides>
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PRESHELI_BACK_RIGHT</Name>
+      <DoorBoneName>door_dside_r</DoorBoneName>
+      <SecondDoorBoneName>door_pside_r</SecondDoorBoneName>
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_PRESHELI_BACK_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_STD_RIGHT" />
+      <Flags>BlockJackReactionUntilJackerIsReady</Flags>
+      <BlockJackReactionSides>
+        <Item>SIDE_RIGHT</Item>
+      </BlockJackReactionSides>
+    </Item>
+	<Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PRESHELI_REAR_LEFT</Name>
+      <DoorBoneName>door_pside_r</DoorBoneName>
+      <SecondDoorBoneName>door_dside_r</SecondDoorBoneName>
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_PRESHELI_EXTRA_NO_SHUFFLE_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <BlockJackReactionSides />
+    </Item>
+	<Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PRESHELI_REAR_RIGHT</Name>
+      <DoorBoneName>door_pside_r</DoorBoneName>
+      <SecondDoorBoneName>door_dside_r</SecondDoorBoneName>
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_PRESHELI_EXTRA_NO_SHUFFLE_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <BlockJackReactionSides />
+    </Item>
+	<Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PRESHELI_BACK_LEFT_1</Name>
+      <DoorBoneName>door_dside_r</DoorBoneName>
+      <SecondDoorBoneName>door_pside_r</SecondDoorBoneName>
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_PRESHELI_REAR_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_STD_LEFT" />
+      <Flags>BlockJackReactionUntilJackerIsReady</Flags>
+      <BlockJackReactionSides>
+        <Item>SIDE_LEFT</Item>
+      </BlockJackReactionSides>
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PRESHELI_BACK_RIGHT_1</Name>
+      <DoorBoneName>door_pside_r</DoorBoneName>
+      <SecondDoorBoneName>door_dside_r</SecondDoorBoneName>
+      <DoorHandleBoneName />
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_PRESHELI_REAR_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_STD_RIGHT" />
+      <Flags>BlockJackReactionUntilJackerIsReady</Flags>
+      <BlockJackReactionSides>
+        <Item>SIDE_RIGHT</Item>
+      </BlockJackReactionSides>
+    </Item>
+	<Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PRESHELI2_BACK_LEFT</Name>
+      <DoorBoneName>door_dside_r</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_PRESHELI_BACK_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_STD_LEFT" />
+      <Flags>BlockJackReactionUntilJackerIsReady</Flags>
+      <BlockJackReactionSides>
+        <Item>SIDE_LEFT</Item>
+      </BlockJackReactionSides>
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PRESHELI2_BACK_RIGHT</Name>
+      <DoorBoneName>door_pside_r</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_PRESHELI_BACK_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_STD_RIGHT" />
+      <Flags>BlockJackReactionUntilJackerIsReady</Flags>
+      <BlockJackReactionSides>
+        <Item>SIDE_RIGHT</Item>
+      </BlockJackReactionSides>
+    </Item>
+	<Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PRESHELI2_REAR_LEFT</Name>
+      <DoorBoneName>door_pside_r</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_PRESHELI_EXTRA_NO_SHUFFLE_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <BlockJackReactionSides />
+    </Item>
+	<Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PRESHELI2_REAR_RIGHT</Name>
+      <DoorBoneName>door_pside_r</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_PRESHELI_EXTRA_NO_SHUFFLE_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <BlockJackReactionSides />
+    </Item>
+	<Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PRESHELI2_BACK_LEFT_1</Name>
+      <DoorBoneName>door_dside_r</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_PRESHELI_REAR_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_STD_LEFT" />
+      <Flags>BlockJackReactionUntilJackerIsReady</Flags>
+      <BlockJackReactionSides>
+        <Item>SIDE_LEFT</Item>
+      </BlockJackReactionSides>
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_PRESHELI2_BACK_RIGHT_1</Name>
+      <DoorBoneName>door_pside_r</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_r</DoorHandleBoneName>
+      <WindowId>INVALID</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_PRESHELI_REAR_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_STD_RIGHT" />
+      <Flags>BlockJackReactionUntilJackerIsReady</Flags>
+      <BlockJackReactionSides>
+        <Item>SIDE_RIGHT</Item>
+      </BlockJackReactionSides>
+    </Item>
+  </VehicleEntryPointInfos>
+  <VehicleEntryPointAnimInfos>
+	<Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_PRESHELI_REAR_LEFT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_VAN_REAR_LEFT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_VAN_REAR_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="2.877000" y="0.100000" z="0.200000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570800" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseOpenDoorBlendAnims UseGetUpAfterJack JackVariationsIncludeGetIn DontCloseDoorInside DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="ENTRY_ANIM_VARIATIONS_VAN_REAR_LEFT" />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_PRESHELI_REAR_RIGHT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_VAN_REAR_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_VAN_REAR_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-2.770359" y="0.176154" z="0.200000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570800" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseOpenDoorBlendAnims UseGetUpAfterJack JackVariationsIncludeGetIn DontCloseDoorInside DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="ENTRY_ANIM_VARIATIONS_VAN_REAR_RIGHT" />
+    </Item>
+	<Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_HELI_PRESHELI_REAR_LEFT_1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_PLANE_LUXOR2_EXTRA_LEFT_1" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_PLANE_LUXOR2_EXTRA_LEFT_1" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.886000" y="0.096000" z="0.035000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForMPPlaneWarp value="0.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn UseNewPlaneSystem DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_HELI_PRESHELI_REAR_RIGHT_1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_PLANE_LUXOR2_EXTRA_RIGHT_1" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_PLANE_LUXOR2_EXTRA_RIGHT_1" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="2.166000" y="0.096000" z="0.035000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForMPPlaneWarp value="0.000000" />
+      <EntryPointFlags>UseVehicleRelativeEntryPosition JackIncludesGetIn UseNewPlaneSystem DontCloseDoorInside JackVariationsIncludeGetIn DeadJackIncludesGetIn NavigateToWarpEntryPoint</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+	<Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_HELI_PRESHELI2_REAR_LEFT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_SWIFT_REAR_LEFT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_HELI_SWIFT_REAR_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.466000" y="-0.421000" z="0.035000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForMPPlaneWarp value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_HELI_PRESHELI2_REAR_RIGHT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_SWIFT_REAR_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_HELI_SWIFT_REAR_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.466000" y="-0.496000" z="0.035000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForMPPlaneWarp value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+	<Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_HELI_PRESHELI2_REAR_LEFT_1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_SWIFT_REAR_LEFT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_HELI_SWIFT_REAR_LEFT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.466000" y="-0.421000" z="0.035000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-1.570000" />
+      <ExtraZForMPPlaneWarp value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn DontCloseDoorInside</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_HELI_PRESHELI2_REAR_RIGHT_1</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_SWIFT_REAR_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_HELI_SWIFT_REAR_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.466000" y="-0.496000" z="0.035000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForMPPlaneWarp value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn DontCloseDoorInside</EntryPointFlags>
+      <EntryAnimVariations ref="NULL" />
+    </Item>
+  </VehicleEntryPointAnimInfos>
+  <VehicleExplosionInfos />
+  <VehicleLayoutInfos>
+    <Item type="CVehicleLayoutInfo">
+      <Name>LAYOUT_HELI_PRESHELI</Name>
+      <Seats>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_FRONT_RIGHT" />
+        </Item>
+		<Item>
+          <SeatInfo ref="SEAT_PRESHELI_EXTRA_NO_SHUFFLE_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_TOURBUS_REAR_RIGHT" />
+        </Item>
+		<Item>
+          <SeatInfo ref="SEAT_PRESHELI_EXTRA_NO_SHUFFLE_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_TOURBUS_REAR_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_PRESHELI_BACK_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_TOURBUS_REAR_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_PRESHELI_BACK_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_PRESHELI_REAR_RIGHT" />
+        </Item>
+		<Item>
+          <SeatInfo ref="SEAT_PRESHELI_REAR_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_TOURBUS_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_PRESHELI_REAR_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_PRESHELI_REAR_LEFT" />
+        </Item>
+      </Seats>
+      <EntryPoints>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_ANNIHILATOR_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_ANNIHILATOR_FRONT_RIGHT" />
+        </Item>
+		<Item>
+          <EntryPointInfo ref="ENTRY_POINT_PRESHELI_REAR_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_PRESHELI_REAR_RIGHT_1" />
+        </Item>
+		<Item>
+          <EntryPointInfo ref="ENTRY_POINT_PRESHELI_REAR_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_PRESHELI_REAR_LEFT_1" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_PRESHELI_BACK_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_PRESHELI_REAR_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_PRESHELI_BACK_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_VAN_REAR_LEFT" />
+        </Item>
+		<Item>
+          <EntryPointInfo ref="ENTRY_POINT_PRESHELI_BACK_LEFT_1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_PRESHELI_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_PRESHELI_BACK_RIGHT_1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_VAN_REAR_RIGHT" />
+        </Item>
+      </EntryPoints>
+      <LayoutFlags>StreamAnims UseFinerAlignTolerance Use2DBodyBlend</LayoutFlags>
+      <BicycleInfo ref="NULL" />
+      <HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+      <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+    </Item>
+	<Item type="CVehicleLayoutInfo">
+      <Name>LAYOUT_HELI_PRESHELI2</Name>
+      <Seats>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_STANDARD_FRONT_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_PRESHELI_BACK_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_PRESHELI_REAR_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_PRESHELI_BACK_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_PRESHELI_REAR_RIGHT" />
+        </Item>
+		<Item>
+          <SeatInfo ref="SEAT_PRESHELI_EXTRA_NO_SHUFFLE_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_TOURBUS_REAR_RIGHT" />
+        </Item>
+		<Item>
+          <SeatInfo ref="SEAT_PRESHELI_EXTRA_NO_SHUFFLE_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_TOURBUS_REAR_LEFT" />
+        </Item>
+		<Item>
+          <SeatInfo ref="SEAT_PRESHELI_REAR_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_PRESHELI_REAR_RIGHT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_PRESHELI_REAR_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_PRESHELI_REAR_LEFT" />
+        </Item>
+      </Seats>
+      <EntryPoints>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_ANNIHILATOR_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_STANDARD_FRONT_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_ANNIHILATOR_FRONT_RIGHT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_PRESHELI2_BACK_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_PRESHELI2_REAR_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_PRESHELI2_BACK_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_PRESHELI2_REAR_RIGHT" />
+        </Item>
+		<Item>
+          <EntryPointInfo ref="ENTRY_POINT_PRESHELI2_REAR_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_PRESHELI_REAR_RIGHT_1" />
+        </Item>
+		<Item>
+          <EntryPointInfo ref="ENTRY_POINT_PRESHELI2_REAR_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_PRESHELI_REAR_LEFT_1" />
+        </Item>
+		<Item>
+          <EntryPointInfo ref="ENTRY_POINT_PRESHELI2_BACK_LEFT_1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_PRESHELI2_REAR_RIGHT_1" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_PRESHELI2_BACK_RIGHT_1" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_PRESHELI2_REAR_LEFT_1" />
+        </Item>
+      </EntryPoints>
+      <LayoutFlags>StreamAnims UseFinerAlignTolerance Use2DBodyBlend</LayoutFlags>
+      <BicycleInfo ref="NULL" />
+      <HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+      <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+    </Item>
+  </VehicleLayoutInfos>
+</CVehicleMetadataMgr>

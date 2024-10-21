@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+  <variationData>
+    <Item>
+      <modelName>manana</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            2
+            2
+            5
+            156
+            24
+            18
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            4
+            4
+            112
+            156
+            25
+            18
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            112
+            112
+            111
+            156
+            106
+            112
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            99
+            99
+            106
+            156
+            93
+            3
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            154
+            154
+            105
+            156
+            93
+            3
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            102
+            3
+            106
+            156
+            154
+            18
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            35
+            35
+            28
+            156
+            154
+            134
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            27
+            112
+            28
+            156
+            24
+            134
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            60
+            60
+            78
+            156
+            144
+            4
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            144
+            144
+            78
+            156
+            122
+            4
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            87
+            112
+            87
+            156
+            157
+            5
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            74
+            74
+            78
+            156
+            26
+            5
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>59_manana_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>standard white</Name>
+            <Value value="10" />
+          </Item>
+          <Item>
+            <Name>blue plate</Name>
+            <Value value="30" />
+          </Item>
+          <Item>
+            <Name>white plate 2</Name>
+            <Value value="60" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="2" />
+      <sirenSettings value="0" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>

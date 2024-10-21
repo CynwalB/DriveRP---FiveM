@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ShopVehicleDataArray>
+	<Vehicles>
+		<Item>
+			<lockHash>CU_VEH_DCERBERUS</lockHash>
+			<modelNameHash>dcerberus</modelNameHash>
+			<cost value="100"/>
+			<textLabel>DCERBERUS</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+		<Item>
+			<lockHash>CU_VEH_DTANKER</lockHash>
+			<modelNameHash>dtanker</modelNameHash>
+			<cost value="100"/>
+			<textLabel>DTANKER</textLabel>
+			<vehicleMods></vehicleMods>
+		</Item>
+	</Vehicles>	
+</ShopVehicleDataArray>

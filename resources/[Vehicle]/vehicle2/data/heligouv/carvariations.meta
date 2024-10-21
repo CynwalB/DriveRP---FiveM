@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData>
+    <Item>
+      <modelName>presheli</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            <Item value="0" />
+            <Item value="0" />
+            <Item value="0" />
+            <Item value="134" />
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits />
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities />
+      </plateProbabilities>
+      <lightSettings value="18" />
+      <sirenSettings value="9161" />
+    </Item>
+	<Item>
+      <modelName>presheli2</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            <Item value="0" />
+            <Item value="0" />
+            <Item value="0" />
+            <Item value="134" />
+          </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits />
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities />
+      </plateProbabilities>
+      <lightSettings value="18" />
+      <sirenSettings value="9161" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>
