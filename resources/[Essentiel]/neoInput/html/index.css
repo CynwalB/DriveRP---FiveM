@@ -1,0 +1,101 @@
+body {
+    background: none !important;
+}
+
+html {
+    scroll-behavior: smooth;
+} 
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2.5vh;
+    color: rgb(51, 153, 255);
+}
+
+h2 {
+    position: relative;
+
+    font-family: 'Courier New', Courier, monospace;
+
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.5vh;
+    margin-top: 5%;
+    margin-bottom: 1%;
+
+    color: gray;
+}
+
+
+#container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 570px;
+    width: 520px;
+    border-radius: 2.5px;
+  
+    background-color: rgba(229, 232, 232);
+    overflow: hidden; 
+}
+
+#textContainer {
+    position: relative;
+    width: 420px;
+
+    margin: auto;
+    margin-top: 7%;
+}
+ 
+#allPlaceHolders {
+    position: relative;
+    overflow: auto; 
+}
+
+#sumbit {
+    position: relative;
+    width: 420px;
+    height: 50px;
+
+    bottom: 0;
+    outline: none;
+    border: none;
+
+    /* text */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3vh;
+    text-transform: uppercase;
+    color: white;
+
+    border-radius: 2.5px;
+    background-color: rgb(51, 153, 255);
+}
+
+
+
+
+#placeholder {
+    width: 420px;
+    height: 70px;
+}
+
+.input{
+    bottom: 0;
+
+    width: 420px;
+    padding: 10px 15px;
+    font-size: 25px;  
+    border-radius: 2.5px;
+    border: none;
+	outline: none;
+
+    color: black;
+    background-color: rgb(204, 204, 204);
+    
+}
+
