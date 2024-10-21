@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SInteriorOrderData>
+  <startFrom value="3000" />
+  <proxies>
+	<Item>sc1_shell_1_f_ymap</Item>
+	<Item>sc1_shell_2_f_ymap</Item>
+  </proxies>
+</SInteriorOrderData>

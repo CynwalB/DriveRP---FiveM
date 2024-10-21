@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapParentTxds>
+ <txdRelationships>
+  <Item>
+   <parent>sadamine_1</parent>
+   <child>sadamine</child>
+  </Item>
+  <Item>
+   <parent>sadamine_2</parent>
+   <child>sadamine_1</child>
+  </Item>
+  <Item>
+   <parent>sadamine_3</parent>
+   <child>sadamine_2</child>
+  </Item>
+  <Item>
+   <parent>sadamine_4</parent>
+   <child>sadamine_3</child>
+  </Item>
+  <Item>
+   <parent>sadamine_5</parent>
+   <child>sadamine_4</child>
+  </Item>
+ </txdRelationships>
+</CMapParentTxds>

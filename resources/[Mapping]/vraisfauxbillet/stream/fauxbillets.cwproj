@@ -1,0 +1,28 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames>
+    <Item>..\..\..\..\jcstashhousemlo[fivem]\stream\jc_stash_milo_.ymap</Item>
+    <Item>fabriquefauxbillet.ymap</Item>
+  </YmapFilenames>
+  <YtypFilenames>
+    <Item>..\..\..\..\jcstashhousemlo[fivem]\stream\jc_stash.ytyp</Item>
+  </YtypFilenames>
+  <YbnFilenames>
+    <Item>..\..\..\..\jcstashhousemlo[fivem]\stream\hi@hw1_03_0.ybn</Item>
+    <Item>..\..\..\..\jcstashhousemlo[fivem]\stream\hw1_03_0.ybn</Item>
+    <Item>..\..\..\..\jcstashhousemlo[fivem]\stream\jc_stash_col.ybn</Item>
+  </YbnFilenames>
+  <YndFilenames />
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames />
+  <AudioRelFilenames />
+  <YdrFilenames>
+    <Item>..\..\..\..\jcstashhousemlo[fivem]\stream\hw1_03_garage_01.ydr</Item>
+    <Item>..\..\..\..\jcstashhousemlo[fivem]\stream\jc_stash_shell.ydr</Item>
+  </YdrFilenames>
+  <YddFilenames />
+  <YftFilenames />
+  <YtdFilenames />
+</CodeWalkerProject>
